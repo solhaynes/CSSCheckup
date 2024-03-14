@@ -1,0 +1,45 @@
+body{
+  background-color: white;
+  color: black;
+  /* Changed the font family of all the text on the page */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#intro{
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: solid #CA7B80 5px;
+}
+
+#margin p{
+  border: dotted black 2px;
+  margin: 20px;
+}
+
+#padding p{
+  margin: 0;
+  border: solid black 2px;
+  padding: 20px;
+}
+
+#pink-container{
+  background: linear-gradient(to right, white, #CA7B80);
+}
+
+#pink-container p{
+  padding: 20px;
+}
